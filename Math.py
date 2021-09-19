@@ -1,5 +1,9 @@
 import math
-a = int(input("Ведите число a: "))
-b = int(input('Ведите число b: '))
-с = a**2 + b**2
-print("c = " , c**(0.5))
+a =int(input("Add number a=")) 
+b =int(input("Add number b="))
+с = a + b
+print("c="+ c)
+
+x = math.sqrt(64)
+
+print(x)
