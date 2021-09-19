@@ -5,5 +5,6 @@ b =int(input("Add number b="))
 print("c="+ c)
 
 x = math.sqrt(64)
-
+y=1
 print(x)
+print(y)
