@@ -7,7 +7,7 @@ class TypeOfMainAssets :
     type: str
 
 @dataclass
-class MoveOfMainAssets 
+class MoveOfMainAssets:
     name: str
     code: int 
     remainder: float 
@@ -15,11 +15,11 @@ class MoveOfMainAssets
     output: float 
 
 type_array = []
-type_arreay.append(TypeOfMainAssets(1"Код Валюти"))
-type_arreay.append(TypeOfMainAssets(2"Курс грн на 1.10"))
-type_arreay.append(TypeOfMainAssets(3"Курс грн на 1.11"))
-type_arreay.append(TypeOfMainAssets(4"Курс грн на 1.12"))
-type_arreay.append(TypeOfMainAssets(5"Рік"))
+type_arreay.append(TypeOfMainAssets(1, "Код Валюти" ))
+type_arreay.append(TypeOfMainAssets(2, "Курс грн на 1.10" ))
+type_arreay.append(TypeOfMainAssets(3, "Курс грн на 1.11" ))
+type_arreay.append(TypeOfMainAssets(4, "Курс грн на 1.12" ))  
+type_arreay.append(TypeOfMainAssets(5, "Рік" ))
 
 move_array = []
 meve_array.append(MoveOfMainAssets("103", 5.65, 6.05, 10.03, 2003))
