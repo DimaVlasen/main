@@ -2,7 +2,7 @@
 from dataclasses import dataclass 
 
 @dataclass 
-class TypeOfMainAssets :
+class TypeOfMainAssets:
     code: int 
     type: str
 
@@ -15,11 +15,11 @@ class MoveOfMainAssets:
     output: float 
 
 type_array = []
-type_array.append(TypeOfMainAssets(1, "Код Валюти" ))
-type_array.append(TypeOfMainAssets(2, "Курс грн на 1.10" ))
-type_array.append(TypeOfMainAssets(3, "Курс грн на 1.11" ))
-type_array.append(TypeOfMainAssets(4, "Курс грн на 1.12" ))  
-type_array.append(TypeOfMainAssets(5, "Рік" ))
+type_array.append(TypeOfMainAssets(1, "Код Валюти"))
+type_array.append(TypeOfMainAssets(2, "Курс грн на 1.10"))
+type_array.append(TypeOfMainAssets(3, "Курс грн на 1.11"))
+type_array.append(TypeOfMainAssets(4, "Курс грн на 1.12"))  
+type_array.append(TypeOfMainAssets(5, "Рік"))
 
 move_array = []
 move_array.append(MoveOfMainAssets("103", 5.65, 6.05, 10.03, 2003))
@@ -47,8 +47,8 @@ def printMoveOfMainAssets(moveOfMainAssets):
     with names and values'''
 
     print("Код Валюти: {name}, Курс грн на 1.10: {secod_name}, Курс грн на 1.11 {tenth_name}, Курс грн на 1.12 {fourteenth_name}, Рік {name2}"
-        .format(name=MoveOfMainAssets.namee , secod_name=MoveOfMainAssets.secod_name , tenth_name=MoveOfMainAssets.tenth_name , 
-        fourteenth_name=MoveOfMainAssets.fourteenth_name , name=MoveOfMainAssets.name2))
+        .format(name=MoveOfMainAssets.name, secod_name=MoveOfMainAssets.secod_name, tenth_name=MoveOfMainAssets.tenth_name, 
+        fourteenth_name=MoveOfMainAssets.fourteenth_name, name2=MoveOfMainAssets.name2))
 
 for data in move_array:
     printMoveOfMainAssets(data)
@@ -64,7 +64,6 @@ def printTypeOfMainAssets(typeOfMainAssets):
 
 for data in type_array:
     printTypeOfMainAssets(data) 
-
 
 
 
