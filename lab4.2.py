@@ -25,8 +25,3 @@ def total_amout_of_words_in_file():
     print ("With spaces:", num_chars)
     num_uniq =  len(set(words_array)-set(exclude))
     print ("Total amount of unique words:", num_uniq)    
-
-
-#print("Without spaces : ", num_words)
-#print("Total amount of different words : ", num_words)
-#print("Total amount of unique words : ", num_words)
